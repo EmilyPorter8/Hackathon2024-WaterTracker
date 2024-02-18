@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="index.css"/>
+    <!-- <script src = "yes.js"></script>-->
+    <script src = "login.js"></script>
+    <title>Water Consumption Tracker - Log in</title>
+</head>
+<body>
+    <header>
+        <h1>Log in</h1>
+    </header>
+    <main>
+        <!-- <div class="water-glass" id="waterGlass">
+            <div class="water-level" id="waterLevel"></div>
+        </div> -->
+
+        <form id="curr_user">
+            <label for="curr_username">Enter Username:</label>
+            <input type ="text" id="curr_username" name="curr_username" placeholder="name" required>
+            <label for="curr_user">Enter Password:</label>
+            <input type ="text" id="curr_pass" name="curr_pass"  placeholder="password" required>
+            <button type="submit">Submit</button>
+        </form>
+
+         <header>
+            <h1>Create Account</h1>
+        </header>
+
+        <form id="new_user">
+            <label for="new_username">Enter Username:</label>
+            <input type ="text" id="new_username" name="User" minlength="6" placeholder="name">
+            <label for="new_pass">Enter Password:</label>
+            <input type ="text" id="new_pass" name="Pass" minlength="6" placeholder="password">
+            <button type="submit">Submit</button>
+        </form>
+           
+
+        <div id="result"></div>
+          <button onclick="window.location.href = 'index.html';">Back to home screen</button>
+         <script src="waterGoal.js"></script>
+
+
+
+    </main>
+    <script src="login.js"></script>
+</body>
+</html>
